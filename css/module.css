@@ -1,33 +1,33 @@
-header                { background-color: rgb(100,100,100); }
-nav                   { background-color: rgb(110,100,100); }
-.big:first-child      { background-color: rgb(120,100,100); }
-.big:last-child       { background-color: rgb(130,100,100); }
-.small:nth-child(1)   { background-color: rgb(140,100,100); }
-.small:nth-child(2)   { background-color: rgb(150,100,100); }
-.small:nth-child(3)   { background-color: rgb(160,100,100); }
-.small:nth-child(4)   { background-color: rgb(170,100,100); }
-footer                { background-color: rgb(180,100,100); }
+header               { background-color: rgb(100,100,100); }
+nav                  { background-color: rgb(110,100,100); }
+div:nth-of-type(1)   { background-color: rgb(120,100,100); }
+div:nth-of-type(2)   { background-color: rgb(130,100,100); }
+div:nth-of-type(3)   { background-color: rgb(140,100,100); }
+div:nth-of-type(4)   { background-color: rgb(150,100,100); }
+div:nth-of-type(5)   { background-color: rgb(160,100,100); }
+div:nth-of-type(6)   { background-color: rgb(170,100,100); }
+footer               { background-color: rgb(180,100,100); }
 
 @media (min-width: 481px) {
-  header              { background-color: rgb(100,100,100); }
-  nav                 { background-color: rgb(100,100,110); }
-  .big:first-child    { background-color: rgb(100,100,120); }
-  .big:last-child     { background-color: rgb(100,100,130); }
-  .small:nth-child(1) { background-color: rgb(100,100,140); }
-  .small:nth-child(2) { background-color: rgb(100,100,150); }
-  .small:nth-child(3) { background-color: rgb(100,100,160); }
-  .small:nth-child(4) { background-color: rgb(100,100,170); }
-  footer               { background-color: rgb(100,100,180); }
+  header             { background-color: rgb(100,100,100); }
+  nav                { background-color: rgb(100,100,110); }
+  div:nth-of-type(1) { background-color: rgb(100,100,120); }
+  div:nth-of-type(2) { background-color: rgb(100,100,130); }
+  div:nth-of-type(3) { background-color: rgb(100,100,140); }
+  div:nth-of-type(4) { background-color: rgb(100,100,150); }
+  div:nth-of-type(5) { background-color: rgb(100,100,160); }
+  div:nth-of-type(6) { background-color: rgb(100,100,170); }
+  footer             { background-color: rgb(100,100,180); }
 }
 
 @media (min-width: 768px) {
-  header              { background-color: rgb(100,100,100); }
-  nav                 { background-color: rgb(100,110,100); }
-  .big:first-child    { background-color: rgb(100,120,100); }
-  .big:last-child     { background-color: rgb(100,130,100); }
-  .small:nth-child(1) { background-color: rgb(100,140,100); }
-  .small:nth-child(2) { background-color: rgb(100,150,100); }
-  .small:nth-child(3) { background-color: rgb(100,160,100); }
-  .small:nth-child(4) { background-color: rgb(100,170,100); }
-  footer              { background-color: rgb(100,180,100); }
+  header             { background-color: rgb(100,100,100); }
+  nav                { background-color: rgb(100,110,100); }
+  div:nth-of-type(1) { background-color: rgb(100,120,100); }
+  div:nth-of-type(2) { background-color: rgb(100,130,100); }
+  div:nth-of-type(3) { background-color: rgb(100,140,100); }
+  div:nth-of-type(4) { background-color: rgb(100,150,100); }
+  div:nth-of-type(5) { background-color: rgb(100,160,100); }
+  div:nth-of-type(6) { background-color: rgb(100,170,100); }
+  footer             { background-color: rgb(100,180,100); }
 }

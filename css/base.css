@@ -1,5 +1,11 @@
-/* body {
+body {
   background-color: bisque;
+}
 
-  display: grid;
-} */
+section div {
+  display: inline-block;
+}
+
+main * {
+  text-align: center;
+}
