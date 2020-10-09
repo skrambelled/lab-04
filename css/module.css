@@ -8,7 +8,7 @@ div:nth-of-type(5)   { background-color: rgb(160,100,100); }
 div:nth-of-type(6)   { background-color: rgb(170,100,100); }
 footer               { background-color: rgb(180,100,100); }
 
-@media (min-width: 481px) {
+@media (min-width: 768px) {
   header             { background-color: rgb(100,100,100); }
   nav                { background-color: rgb(100,100,110); }
   div:nth-of-type(1) { background-color: rgb(100,100,120); }
@@ -20,7 +20,7 @@ footer               { background-color: rgb(180,100,100); }
   footer             { background-color: rgb(100,100,180); }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 960px) {
   header             { background-color: rgb(100,100,100); }
   nav                { background-color: rgb(100,110,100); }
   div:nth-of-type(1) { background-color: rgb(100,120,100); }
