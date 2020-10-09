@@ -1,0 +1,19 @@
+body {
+  max-width: 480px;
+  max-height: calc(480px * 2.198);
+  background-color: white;
+  margin: auto;
+}
+
+section {
+  margin: auto;
+}
+
+div {
+  height: 100%;
+  font-size: 2em;
+  outline: black solid 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

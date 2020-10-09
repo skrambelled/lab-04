@@ -1,0 +1,59 @@
+.top {
+  height: 125px;
+}
+
+.bottom {
+  clear: both;
+  height: 80px;
+}
+
+.left {
+  float: left;
+  width: 50%;
+  height: 250px;
+}
+
+.right {
+  float: right;
+  width: 50%;
+  height: 250px;
+}
+
+#a { background-color: rgb(100,100,80); }
+#b { background-color: rgb(120,100,80); }
+#c { background-color: rgb(140,100,80); }
+#d { background-color: rgb(160,100,80); }
+#e { background-color: rgb(180,100,80); }
+#f { background-color: rgb(190,100,80); }
+#g { background-color: rgb(200,100,80); }
+#h { background-color: rgb(210,100,80); }
+#i { background-color: rgb(230,100,80); }
+
+@media (min-width: 768px) {
+  .top {
+    float: left;
+    width: 50%;
+    height: 200px;
+  }
+
+  .middle {
+    float: left;
+    width: 25%;
+    height: 250px;
+  }
+
+  .bottom {
+    width: 100%;
+    height: 150px;
+  }
+
+  #a { background-color: rgb(100,100,80); }
+  #b { background-color: rgb(100,120,80); }
+  #c { background-color: rgb(100,140,80); }
+  #d { background-color: rgb(100,160,80); }
+  #e { background-color: rgb(100,180,80); }
+  #f { background-color: rgb(100,190,80); }
+  #g { background-color: rgb(100,200,80); }
+  #h { background-color: rgb(100,210,80); }
+  #i { background-color: rgb(100,230,80); }
+}
